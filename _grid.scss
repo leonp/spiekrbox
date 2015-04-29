@@ -1,0 +1,91 @@
+@media screen, projection {
+
+	.g-row {
+		clear: both;
+		overflow: hidden;
+	}
+
+	g-n-col1 {
+		width: 15%;
+	}
+
+	.g-n-col2 {
+		width: 32%;
+	}
+
+	.g-n-col3 {
+		width: 49%;
+	}
+
+	.g-n-col4 {
+		width: 66%;
+	}
+
+	.g-n-col5 {
+		width: 83%
+	}
+
+	.g-n-col6 {
+		width: 100%
+	}
+
+	.g-n-left {
+		float: left;
+		margin-right: 2%
+	}
+
+	.g-n-right {
+		float: right;
+		margin-left: 2%;
+	}
+
+	.g-n-last {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+} /* End screen and projection query */
+
+
+@media #{$widescreen-breakpoint} {
+
+	.g-col1 {
+		width: 15%;
+	}
+
+	.g-col2 {
+		width: 32%;
+	}
+
+	.g-col3 {
+		width: 49%;
+	}
+
+	.g-col4 {
+		width: 66%;
+	}
+
+	.g-col5 {
+		width: 83%
+	}
+
+	.g-col6 {
+		width: 100%
+	}
+
+	.g-left {
+		float: left;
+		margin-right: 2%
+	}
+
+	.g-right {
+		float: right;
+		margin-left: 2%;
+	}
+
+	.g-last {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+} /* End widescreen query */

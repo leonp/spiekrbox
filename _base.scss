@@ -1,0 +1,52 @@
+@media screen, projection {
+
+
+	body, ul, ol, p, h1, h2, h3, h4, h5, h6, fieldset, dd, figure, figcaption, main {
+		margin: 0;
+		padding: 0;
+	}
+
+	article, aside, dialog, figure, figcaption, footer, header, nav, section, main {
+		display: block;
+	}
+
+	body {
+		font-size: 100%;
+		line-height: $base-line-height;
+		font-family: $primary-font-stack;
+		background-color: $light;
+		color: $dark;
+	}
+
+
+	.clearfix:before,
+	.clearfix:after {
+		content: "";
+		display: block;
+	}
+
+	.clearfix:after {
+		clear: both;
+	}
+
+	.clearfix {
+		zoom: 1;
+	}
+
+	.hide {
+		position: absolute !important;
+		clip: rect(1px 1px 1px 1px);
+		clip: rect(1px, 1px, 1px, 1px);
+	}
+
+} /* End screen and projection query */
+
+
+@media #{$widescreen-breakpoint} {
+	
+	body {
+		font-size: $widescreen-font-size;
+		line-height: 1.4;
+	}
+
+} /* End widescreen query */

@@ -1,0 +1,78 @@
+@media screen, projection {
+
+	.global-header {
+		padding: 0.75em 0;
+		font-family: $secondary-font-stack;
+		background-color: $lgrey;
+	}
+
+	.global-header a {
+		text-decoration: none;
+		padding: 0.25em 0;
+		text-transform: lowercase;
+		font-variant: small-caps;
+	}
+
+	.global-header-title {
+		font-size: 1em;
+		padding: 0.5em 0;
+		font-weight: normal;
+		text-transform: lowercase;
+		font-variant: small-caps;
+	}
+
+	.global-header-nav-list {
+		padding: 0.5em 0;
+		list-style-type: none;
+	}
+
+	.global-header-nav-list a {
+		display: block;
+		border-top: 1px solid $light;
+	}
+
+	.global-header a:link,
+	.global-header a:visited {
+		color: $dark;
+	}
+
+	.global-header a:hover,
+	.global-header a:active,
+	.global-header a:focus {
+		color: $hover;
+	}
+
+}
+
+
+@media #{$widescreen-breakpoint} {
+	
+	.global-header {
+		padding: 0.6em 0;
+		background-color: $light;
+	}
+
+	.global-header a {
+		padding: 0.2em 0;
+	}
+
+	.global-header-title {
+		padding: 0.4em 0;
+	}
+
+	.global-header-nav-list {
+		text-align: right;
+		padding: 0.4em 0;
+	}
+
+	.global-header-nav-list-item {
+		display: inline;
+		margin-left: 1.4em;
+	}
+
+	.global-header-nav-list a {
+		display: inline;
+		border-top: none;
+	}
+
+}

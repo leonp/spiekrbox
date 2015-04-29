@@ -1,0 +1,43 @@
+// Variables
+
+// Size
+
+$base-line-height: 1.5;
+$widescreen-font-size: 125%;
+
+
+// Breakpoints
+
+$widescreen-breakpoint: "screen and (min-width: 940px)";
+
+
+// Fonts
+
+$primary-font-stack: 'Fira Sans', Lora, georgia, serif;
+$secondary-font-stack: 'Fira Sans', sans-serif;
+
+
+// Colours
+
+$black: #000;
+$dark: #444;
+$light: #FFF;
+$grey: #AAA;
+$lgrey: #F9F9F9;
+$highlight: #FFD000;
+$link: #0000FF;
+$visited: #7F7FFF;
+$hover: #FC7500;
+
+
+// Imports
+
+@import
+    "base",
+	"grid",
+	"toggle",
+	"layout",
+	"global-header",
+	"logo",
+	"entry"
+;

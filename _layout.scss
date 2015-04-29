@@ -1,0 +1,23 @@
+@media screen, projection {
+
+	.wrapper {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	#banner {
+		margin-bottom: 1.4em;
+	}
+
+
+} /* End screen and projection query */
+
+
+
+@media #{$widescreen-breakpoint} {
+
+	#banner {
+		margin-bottom: 5.6em;
+	}
+
+} /* End widescreen query */
