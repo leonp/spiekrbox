@@ -32,7 +32,8 @@
 		-moz-hyphens: auto;
 	}
 
-	.entry-content .entry-wide {
+	.entry-content .entry-wide,
+	.entry-content .entry-wide * {
 		max-width: 100% !important;
 	}
 
