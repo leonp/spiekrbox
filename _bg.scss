@@ -1,0 +1,22 @@
+@media screen, projection {
+
+	.bg {
+		padding: 1.5em 0;
+		overflow: hidden;
+	}
+
+	.bg-highlight {
+		color: $dark;
+		background-color: $bg-highlight;
+	}
+
+} /* End screen and projection query */
+
+
+@media #{$widescreen-breakpoint} {
+
+	.bg {
+		padding: 1.4em 0;
+	}
+
+} /* End widescreen query */

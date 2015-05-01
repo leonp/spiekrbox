@@ -1,0 +1,27 @@
+@media screen, projection {
+
+	img {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		height: auto;
+		width: auto;
+		max-width: 100% !important;
+	}
+
+	.primary {
+		font-size: 1.4em;
+	}
+
+	p.primary {
+		margin-bottom: 1em;
+	}
+
+
+} /* End screen and projection query */
+
+
+@media #{$widescreen-breakpoint} {
+
+
+} /* End widescreen query */

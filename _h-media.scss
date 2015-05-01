@@ -1,0 +1,39 @@
+@media screen, projection {
+
+	.h-media {
+		padding: 0.75em 0 1.5em 0;
+	}
+
+	.h-media-title {
+		font-size: 1.167em;
+		line-height: 1.071em;
+		margin-bottom: 0.428em;
+		text-align: center;
+		text-transform: lowercase;
+		font-variant: small-caps;
+	}
+
+	.h-media img {
+		margin-bottom: 0.75em;
+	}
+
+} /* End screen and projection query */
+
+
+@media #{$widescreen-breakpoint} {
+
+	.h-media {
+		padding: 0.7em 0 1.4em 0;
+	}
+
+	.h-media-title {
+		font-size: 1.167em;
+		line-height: 1.2em;
+		margin-bottom: 0.686em;
+		text-align: center;
+		text-transform: lowercase;
+		font-variant: small-caps;
+	}
+
+
+} /* End widescreen query */
